@@ -38,6 +38,7 @@ Hướng dẫn này cung cấp các bước cơ bản để tăng cường bảo
 - **Thực hiện qua giao diện đồ họa (UI)**:
   - **Mở port**:
     1. Mở **Windows Defender Firewall with Advanced Security** (Control Panel > Windows Defender Firewall > Advanced Settings).
+- #### Chú ý: Kiểm tra Windows Firewall Properties, xem Inbound của profile đã Allow hay chưa.
     2. Nhấp vào **Inbound Rules** > **New Rule**.
     3. Chọn **Port** > **Next**.
     4. Chọn **TCP** hoặc **UDP**, nhập số port (ví dụ: 8080) vào **Specific local ports** > **Next**.
