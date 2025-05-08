@@ -51,10 +51,10 @@ Hướng dẫn này cung cấp các bước cơ bản để tăng cường bảo
 - **Thực hiện qua PowerShell**:
   - **Mở port**:
     ```powershell
-    New-NetFirewallRule -DisplayName "Allow TCP 8080" -Direction Inbound -Protocol TCP -LocalPort 8080 -Action Allow
+    New-NetFirewallRule -DisplayName "Allow TCP 8080 Inbound" -Direction Inbound -Protocol TCP -LocalPort 8080 -Action Allow -Profile Any
     ```
-     ```powershell
-    New-NetFirewallRule -DisplayName "Allow TCP 8080" -Direction Outbound -Protocol TCP -LocalPort 8080 -Action Allow
+    ```powershell
+    New-NetFirewallRule -DisplayName "Allow TCP 8080 Outbound" -Direction Outbound -Protocol TCP -RemotePort 8080 -Action Allow -Profile Any
     ```
   - **Đóng port**:
     - Chặn port:
