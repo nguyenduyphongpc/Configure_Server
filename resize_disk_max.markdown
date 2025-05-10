@@ -1,5 +1,5 @@
 # Mở rộng phân vùng / lên max
-```powershell
+```shell
 #!/bin/bash
 echo "Mo rong phan vung / len max"
 parted /dev/sda resizepart 4 100%
