@@ -3,3 +3,4 @@
 ## Windows Server 2022 Basic Security Guide: [Here](https://github.com/nguyenduyphongpc/Configure_Server/blob/master/Windows%20Server%202022%20Basic%20Security%20Guide.markdown)
 ## Cài đặt wordpress trên cPanel: [Here](https://docs.google.com/document/d/1Gxt1SXH5fSNK9J7Ql6-xsszJHm3GYqDUiRPWRDmeYio/edit?usp=sharing)
 ## Resize disk max: [Here](https://github.com/nguyenduyphongpc/Configure_Server/blob/master/resize_disk_max.markdown)
+## RAID DISK: [Here](https://github.com/nguyenduyphongpc/Configure_Server/blob/master/Configure_RAID_Disk.markdown)
