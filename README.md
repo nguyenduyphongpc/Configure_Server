@@ -4,3 +4,4 @@
 ## Cài đặt wordpress trên cPanel: [Here](https://docs.google.com/document/d/1Gxt1SXH5fSNK9J7Ql6-xsszJHm3GYqDUiRPWRDmeYio/edit?usp=sharing)
 ## Resize disk max: [Here](https://github.com/nguyenduyphongpc/Configure_Server/blob/master/resize_disk_max.markdown)
 ## RAID DISK: [Here](https://github.com/nguyenduyphongpc/Configure_Server/blob/master/Configure_RAID_Disk.markdown)
+## Hướng dẫn tạo máy chủ cho khách: [Here](https://docs.google.com/document/d/1uq3Nk_LkPtFNVJVe6XfVEj0t56m57zlAhBpN7feMTIQ/edit?usp=sharing)
