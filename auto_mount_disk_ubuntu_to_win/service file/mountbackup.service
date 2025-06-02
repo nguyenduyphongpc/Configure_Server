@@ -1,0 +1,17 @@
+[Unit]
+Description=Mount CIFS and Restart Docker Compose Projects
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/adm1n/automount/mountbackup.sh
+Restart=always
+RestartSec=5
+User=root
+WorkingDirectory=/home/adm1n
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

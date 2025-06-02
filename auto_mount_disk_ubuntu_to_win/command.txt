@@ -1,0 +1,15 @@
+sudo chmod +x mountbackup.service
+sudo chmod +x mount-and-docker.service 
+
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+
+sudo systemctl enable mountbackup.service
+sudo systemctl start mountbackup.service 
+sudo systemctl status mountbackup.service 
+
+sudo systemctl enable mount-and-docker.service
+sudo systemctl start  mount-and-docker.service
+sudo systemctl status mount-and-docker.service
+
+
