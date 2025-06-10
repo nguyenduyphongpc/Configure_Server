@@ -10,6 +10,4 @@ resize2fs /dev/mapper/vg0-lv--0
 echo "Hoan Thanh"
 ```
 # CentOs7
-```shell
-
-```
+[link](https://tailieu.tgs.com.vn/mo-rong-dung-luong-o-cung-cua-may-ao-centos-tren-vmware/)
