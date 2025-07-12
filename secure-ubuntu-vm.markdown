@@ -34,7 +34,7 @@ echo "Đổi cổng SSH và vô hiệu hóa đăng nhập root..."
 sudo apt install openssh-server -y
 sudo sed -i 's/#Port 22/Port 3333/' /etc/ssh/sshd_config
 sudo sed -i 's/#PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config
-sudo sed -i 's/#PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_config
+sudo sed -i 's/#PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config
 sudo sed -i "/AllowUsers/d" /etc/ssh/sshd_config
 echo "AllowUsers $USER" | sudo tee -a /etc/ssh/sshd_config
 sudo systemctl restart ssh
