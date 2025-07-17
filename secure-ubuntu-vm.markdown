@@ -3,7 +3,7 @@
 ## Mô tả
 Script này tự động hóa việc thiết lập các biện pháp bảo mật cơ bản cho máy ảo Ubuntu Desktop, bao gồm:
 - Cài đặt và cấu hình cập nhật tự động lúc 0h hàng ngày với `unattended-upgrades`.
-- Đổi cổng SSH sang 3333, vô hiệu hóa đăng nhập root, và yêu cầu sử dụng khóa SSH.
+- Đổi cổng SSH sang 3333, vô hiệu hóa đăng nhập root.
 - Cấu hình tường lửa UFW để cho phép cổng 3333 và chặn cổng 22.
 - Cài đặt và cấu hình Fail2Ban để bảo vệ SSH khỏi các cuộc tấn công brute-force.
 
