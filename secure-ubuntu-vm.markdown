@@ -10,7 +10,7 @@ Script này tự động hóa việc thiết lập các biện pháp bảo mật
 ## Yêu cầu
 - Chạy với quyền `sudo`.
 - Đã thiết lập khóa SSH và sao chép khóa công khai vào VM trước khi chạy để tránh mất kết nối SSH.
-- Hệ điều hành: Ubuntu 22.04 Desktop.
+- Hệ điều hành: Ubuntu 22.04.
 
 ## Nội dung script
 
